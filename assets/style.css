@@ -1,0 +1,36 @@
+body {
+  padding-top:
+}
+
+nav {
+  border-bottom: solid 2px black;
+  background-color: rgba(43,43,43,.75)!important;
+}
+
+nav .nav_pic {
+  display: inline-block;
+}
+
+nav ul {
+  margin-top: 3.5em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1.5em;
+  padding: 1em;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.nav_pic img {
+  height: 12em;
+}
