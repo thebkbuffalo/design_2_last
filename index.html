@@ -11,14 +11,14 @@
     <nav class="navbar-fixed-top home_page_nav">
       <div class="nav">
         <div class="nav_pic">
-          <img src="assets/pics/logo.jpg">
+          <a data-scroll href="/"><img src="assets/pics/logo.jpg"></a>
         </div>
         <ul class="pull-right">
-          <li role="presentation"><a href="/">Home</a></li>
-          <li role="presentation"><a href="#">About</a></li>
-          <li role="presentation"><a href="#">Portfolio</a></li>
-          <li role="presentation"><a href="#">Something else?</a></li>
-          <li role="presentation"><a href="#">Contact</a></li>
+          <li role="presentation"><a data-scroll href="/">Home</a></li>
+          <li role="presentation"><a data-scroll href="#about">About</a></li>
+          <li role="presentation"><a data-scroll href="#portfolio">Portfolio</a></li>
+          <li role="presentation"><a data-scroll href="#something">Something else?</a></li>
+          <li role="presentation"><a data-scroll href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -39,7 +39,7 @@
     </div>
 
     <!-- Another section maybe? -->
-    <div id="">
+    <div id="something">
 
     </div>
 
@@ -51,6 +51,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="assets/scroll.js"></script>
     <script src="assets/main.js"></script>
   </body>
 </html>
