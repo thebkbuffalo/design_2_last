@@ -1,3 +1,5 @@
+body {}
+
 nav {
   border-bottom: solid 2px black;
   background-color: rgba(0,0,0,.5)!important;
@@ -60,6 +62,16 @@ nav a:hover {
   /*padding: 6em 0;*/
   text-align: center;
   border-bottom: 1px solid black;
+}
+
+.about_content {
+  margin: 2em 15em;
+  color: white;
+  background: rgba(0,0,0,.5);
+}
+
+.about_content_inner {
+  padding: 3em;
 }
 
 #portfolio {
