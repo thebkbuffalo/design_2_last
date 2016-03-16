@@ -19,13 +19,13 @@ nav ul li {
 }
 
 nav a {
-  color: white;
+  color: white!important;
 }
 
 nav a:hover {
   color: white;
-  /*border: 1px solid white;*/
 }
+
 
 .nav_pic {
   background-color: white;
