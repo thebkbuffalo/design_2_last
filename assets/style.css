@@ -27,12 +27,13 @@ nav ul li {
 
 .dropdown-menu {
   margin-top: 2.2em!important;
+  background-color: rgba(0,0,0,.5)!important;
 }
 
-/*try to get this working maybe
+/*try to get this working maybe*/
 ul.dropdown-menu li {
-  display: inline!important;
-}*/
+  padding: .3em!important;
+}
 
 nav a {
   color: white!important;
@@ -49,10 +50,6 @@ nav a:hover {
 .nav_pic img {
   height: 10em;
   padding-left: 4em;
-}
-
-.dropdown-menu {
-  background-color: rgba(0,0,0,.5)!important;
 }
 
 #home {
@@ -138,4 +135,46 @@ nav a:hover {
 .header {
   padding-top: 10em;
   color: white;
+}
+
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display:block;
+}
+.dropdown-submenu>a:after {
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#cccccc;
+  margin-top:5px;
+  margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+  float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left:-100%;
+  margin-left:10px;
+  -webkit-border-radius:6px 0 6px 6px;
+  -moz-border-radius:6px 0 6px 6px;
+  border-radius:6px 0 6px 6px;
 }
