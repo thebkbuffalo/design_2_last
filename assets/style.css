@@ -20,6 +20,20 @@ nav ul li {
   font-size: 1.4em;
 }
 
+.dropdown {
+  display: inline-block;
+  color: white!important;
+}
+
+.dropdown-menu {
+  margin-top: 2.2em!important;
+}
+
+/*try to get this working maybe
+ul.dropdown-menu li {
+  display: inline!important;
+}*/
+
 nav a {
   color: white!important;
 }
@@ -28,7 +42,6 @@ nav a:hover {
   color: white;
 }
 
-
 .nav_pic {
   background-color: white;
 }
@@ -36,6 +49,10 @@ nav a:hover {
 .nav_pic img {
   height: 10em;
   padding-left: 4em;
+}
+
+.dropdown-menu {
+  background-color: rgba(0,0,0,.5)!important;
 }
 
 #home {
@@ -87,8 +104,8 @@ nav a:hover {
   border-bottom: 1px solid black;
 }
 
-#something {
-  background: url('/assets/pics/something.jpg') no-repeat 100% 100%;
+#services {
+  background: url('/assets/pics/services.jpg') no-repeat 100% 100%;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
