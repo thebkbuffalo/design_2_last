@@ -23,6 +23,7 @@ nav ul li {
 .dropdown {
   display: inline-block;
   color: white!important;
+  cursor: pointer;
 }
 
 .dropdown-menu {
@@ -35,6 +36,10 @@ ul.dropdown-menu li {
   padding: .3em!important;
 }
 
+ul.dropdown-menu li a:hover {
+  background-color: rgba(0,0,0,0)!important;
+  text-decoration: underline!important;
+}
 nav a {
   color: white!important;
 }
@@ -162,7 +167,7 @@ nav a:hover {
   border-style:solid;
   border-width:5px 0 5px 5px;
   border-left-color:#cccccc;
-  margin-top:5px;
+  margin-top:10.5px;
   margin-right:-10px;
 }
 .dropdown-submenu:hover>a:after {
