@@ -138,8 +138,8 @@ nav a:hover {
 
 .about_content {
   margin: 2em 7em;
-  color: white;
-  background: rgba(0,0,0,.7);
+  color: black;
+  background: rgba(255,255,255,.7);
 }
 
 .about_content h1 {
@@ -148,6 +148,10 @@ nav a:hover {
 
 .about_content_inner {
   padding: 1em 3em 3em 3em;
+}
+
+.about_content_inner hr {
+  border-top: 1px solid black!important;
 }
 
 #portfolio {
