@@ -150,10 +150,6 @@ nav a:hover {
   padding: 1em 3em 3em 3em;
 }
 
-.about_content_inner hr {
-  border-top: 1px solid black!important;
-}
-
 #portfolio {
   background: url('/assets/pics/portfolio.jpg') no-repeat 100% 100%;
   background-size: cover;
