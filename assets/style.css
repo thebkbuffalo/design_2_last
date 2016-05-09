@@ -13,62 +13,31 @@ em {
   font-style: italic;
 }
 
-nav .nav_pic {
-  display: inline-block;
+/*NAV*/
+.nav_logo {
+  margin: .5em 0 0 2em;
 }
 
-nav ul {
-  margin-top: 3em;
-}
-
-nav ul li {
+.nav ul li {
   display: inline-block;
-  margin-right: 2.7em;
-  padding: 1em;
-  font-size: 1.4em;
+  font-size: 1.5em;
+  padding: 1.2em 1em;
+  margin: .4em 1em 0 0;
 }
 
 .scrollable-menu {
   height: auto;
   max-height: 250px;
   overflow-x: hidden;
-  }
-
-.dropdown {
-  display: inline-block;
-  color: white!important;
-  cursor: pointer;
 }
 
-.dropdown-menu {
-  margin-top: 2.2em!important;
-  background-color: rgba(0,0,0,.7)!important;
-}
-
-/*try to get this working maybe*/
-ul.dropdown-menu li {
-  padding: .3em!important;
-}
-
-ul.dropdown-menu li a:hover {
-  background-color: rgba(0,0,0,0)!important;
-  text-decoration: underline!important;
-}
 nav a {
   color: white!important;
 }
 
-nav a:hover {
+nav li:hover {
   color: white;
-}
-
-.nav_pic {
-  background-color: white;
-}
-
-.nav_pic img {
-  height: 10em;
-  padding-left: 4em;
+  background: rgba(0,0,0,.2)
 }
 
 #home {

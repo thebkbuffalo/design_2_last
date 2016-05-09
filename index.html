@@ -10,85 +10,14 @@
   <body>
     <nav class="navbar-fixed-top home_page_nav">
       <div class="nav">
-        <div class="nav_pic">
-          <a data-scroll href="/"><img src="assets/pics/logo.jpg"></a>
+        <div class="pull-left nav_logo">
+          <a data-scroll href="/"><h1 class="green">Design 2 Last</h1></a>
         </div>
         <ul class="pull-right">
-          <li role="presentation"><a data-scroll href="/">Home</a></li>
-          <div class="dropdown">
-            <li class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About<span class="caret"></span></li>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a data-scroll href="#firm_overview">Firm Overview</a></li>
-              <li><a data-scroll href="#leadership">Leadership</a></li>
-              <li><a data-scroll href="#sustainability">Sustainability</a></li>
-              <li><a data-scroll href="#testimonials">Testimonials</a></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <li class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio<span class="caret"></span></li>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">School</a></li>
-              <li><a href="#">Federal/Govt</a></li>
-              <li><a href="#">Other Agency</a></li>
-              <li><a href="#">Private Sector</a></li>
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">Clients/Owners</a>
-                <ul class="dropdown-menu scrollable-menu" role="menu">
-                  <li><a href="#">NAVFAC</a></li>
-                  <li><a href="#">Bureau of Land Management</a></li>
-                  <li><a href="#">General Services Admin</a></li>
-                  <li><a href="#">Aleutians East Borough</a></li>
-                  <li><a href="#">Exotic Metals Forming Company</a></li>
-                  <li><a href="#">U.S. Army Corps of Engineers</a></li>
-                  <li><a href="#">Federal Aviation Admin</a></li>
-                  <li><a href="#">WJA Design Collab</a></li>
-                  <li><a href="#">Lower Yukon School District</a></li>
-                  <li><a href="#">Martin Harris Construction</a></li>
-                  <li><a href="#">PCL Construction Services</a></li>
-                  <li><a href="#">Williams County, Texas</a></li>
-                  <li><a href="#">Clark County NV School District</a></li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">Project Types</a>
-                <ul class="dropdown-menu scrollable-menu">
-                  <li><a href="#">Airport Terminals/Hangers</a></li>
-                  <li><a href="#">Barracks/Dormitories</a></li>
-                  <li><a href="#">Churches/Chapels</a></li>
-                  <li><a href="#">Commercial Office Buildings</a></li>
-                  <li><a href="#">Correctional Facilities</a></li>
-                  <li><a href="#">Educational/Training Facilities</a></li>
-                  <li><a href="#">Energy Audit/Conservation</a></li>
-                  <li><a href="#">Fire Stations</a></li>
-                  <li><a href="#">Historic Preservation</a></li>
-                  <li><a href="#">Judicial/Courtroom Facilities</a></li>
-                  <li><a href="#">Libraries/Theaters</a></li>
-                  <li><a href="#">Multi-Family Housing</a></li>
-                  <li><a href="#">Rehabilitation/Reno/Remodel</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <li class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Services<span class="caret"></span></li>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">Architectural Design</a></li>
-              <li><a href="#">Design-Built Team Management</a></li>
-              <li><a href="#">Project Management</a></li>
-              <li><a href="#">Construction Docs/Specifications</a></li>
-              <li><a href="#">BIM modeling</a></li>
-              <li><a href="#">Bidding/Construction/Admin</a></li>
-              <li><a href="#">Peer Tech Review/Code Analysis</a></li>
-              <li><a href="#">Facility Condition Assessment</a></li>
-              <li><a href="#">Building Envelope Replacement</a></li>
-              <li><a href="#">Design-Bild Requests</a></li>
-              <li><a href="#">LEED Documentation</a></li>
-              <li><a href="#">Sustainable Design Consulting</a></li>
-              <li><a href="#">Cold Climate Design</a></li>
-              <li><a href="#">ADA Compliance Evaluation</a></li>
-              <li><a href="#">Programs Develop/Masterplanning</a></li>
-            </ul>
-          </div>
+          <li role="presentation"><a data-scroll href="/">Home</a></li> 
+          <li role="presentation"><a data-scroll href="#firm_overview">About</a></li>
+          <li role="presentation"><a data-scroll href="#portfolio">Portfolio</a></li>
+          <li role="presentation"><a data-scroll href="#services">Services</a></li>
           <li role="presentation"><a data-scroll href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -96,7 +25,11 @@
 
     <!-- home -->
     <div id="home">
+      <!-- Button trigger modal -->
       <div class="home_header">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button>
         <h1 style="font-size:6em;">Design 2 Last</h1>
       </div>
     </div>
@@ -114,7 +47,7 @@
       </div>
     </div>
 
-    <div id="leadership">
+    <!-- <div id="leadership">
       <div class="header">
       </div>
       <div class="about_content">
@@ -124,9 +57,9 @@
           <h3><span class="green">design2 LAST inc</span> knows you, our client, are the most important team member. <b><em>We listen first, and then work with you to develop solutions that respond to your culture and business objective.</b></em>  Our reputation is built on client satisfaction.  Over years in business, we have built trusting and lasting teaming relationships with highly qualified and responsive consultants. Our project management approach begins with our unique ability to organize our team, keep moving forward, and remain focused on the program goals and requirements. Frequent client interaction throughout the process results in successful projects on schedule and on budget. </h3>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div id="sustainability">
+    <!-- <div id="sustainability">
       <div class="header">
       </div>
       <div class="about_content">
@@ -154,7 +87,7 @@
           <h4>New manufacturing Facility, Airway Heights, WA</h4>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Portfolio section -->
     <div id="portfolio">
@@ -177,6 +110,27 @@
     <div id="contact">
       <div class="header">
         <h1>Contact Us</h1>
+      </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
 

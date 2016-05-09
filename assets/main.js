@@ -3,4 +3,8 @@ $(document).ready(function(){
   smoothScroll.init({
     speed: 750
   });
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  });
 });
