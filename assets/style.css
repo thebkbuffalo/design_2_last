@@ -218,15 +218,15 @@ nav li:hover {
 
 #photos img {
   /*z-index: 1;*/
-  /*position: relative;*/
+  position: relative;
 }
 
 #photos h1 {
-  position: absolute;
+  /*position: absolute;*/
   z-index: 100;
-  margin-bottom: -67px;
-  color: white;
-  /*text-align: top;*/
+  /*margin-bottom: -67px;*/
+  /*color: white;*/
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
