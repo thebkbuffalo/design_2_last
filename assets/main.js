@@ -7,4 +7,9 @@ $(document).ready(function(){
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
   });
+
+  $(function(){
+    var wall = new Freewall(".photos");
+    wall.fitWidth();
+  });
 });
