@@ -8,8 +8,5 @@ $(document).ready(function(){
     $('#myInput').focus()
   });
 
-  $(function(){
-    var wall = new Freewall(".photos");
-    wall.fitWidth();
-  });
+  
 });

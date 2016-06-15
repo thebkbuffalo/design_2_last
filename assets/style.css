@@ -87,13 +87,13 @@ nav li:hover {
 }
 
 #our_work {
-  background: url('http://placekitten.com/g/1000/800') no-repeat 100% 100%;
+  background: url('') no-repeat 100% 100%;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   /*padding: 6em 0;*/
   text-align: center;
   border-bottom: 1px solid black;
@@ -224,13 +224,12 @@ nav li:hover {
   -moz-border-radius:6px 0 6px 6px;
   border-radius:6px 0 6px 6px;
 }
-
-.photos {
-  width: 80%;
-  margin: auto;
+.work_photos {
+  display: inline-block;
 }
 
-.items {
-  width: 320px;
-  height: 320px;
+.work_photos img {
+  width: 375px;
+  height: 375px;
+  padding: 2em 0 ;
 }
