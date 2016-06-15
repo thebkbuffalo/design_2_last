@@ -1,0 +1,126 @@
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px) {
+    #our_services{
+      border-bottom: 3px solid black;
+      background: url('') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 175vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+    }
+
+    #our_work {
+      background: url('') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 200vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+      border-bottom: 3px solid black;
+    }
+
+    #our_firm {
+      background: url('/assets/pics/our_firm.jpg') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 220vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+      border-bottom: 3px solid black;
+    }
+
+    .about_content {
+      margin: 2em 2em;
+      color: black;
+    }
+
+    .work_photos img {
+      width: 300px;
+      height: 250px;
+      /*padding: 0 2em;*/
+      /*margin: 0 1em;*/
+      padding-bottom: 10px;
+    }
+
+    .services_photos img {
+      width: 375px;
+      height: 325px;
+      /*padding: 3em 0;*/
+      /*margin: 0 2em;*/
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* tablets and desktop */
+
+    #our_services{
+      border-bottom: 3px solid black;
+      background: url('') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 175vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+    }
+
+    #our_work {
+      background: url('') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 225vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+      border-bottom: 3px solid black;
+    }
+
+    #our_firm {
+      background: url('/assets/pics/our_firm.jpg') no-repeat 100% 100%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      width: 100%;
+      height: 275vh;
+      /*padding: 6em 0;*/
+      text-align: center;
+      border-bottom: 3px solid black;
+    }
+
+    .about_content {
+      margin: 2em 2em;
+      color: black;
+    }
+
+    .work_photos img {
+      width: 300px;
+      height: 250px;
+      /*padding: 0 2em;*/
+      /*margin: 0 1em;*/
+      padding-bottom: 10px;
+    }
+
+    .services_photos img {
+      width: 375px;
+      height: 325px;
+      /*padding: 3em 0;*/
+      /*margin: 0 2em;*/
+    }
+}
