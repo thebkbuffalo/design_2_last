@@ -4,9 +4,9 @@ $(document).ready(function(){
     speed: 750
   });
 
-  $('#myModal').on('shown.bs.modal', function () {
+  $('#workPublic1').on('shown.bs.modal', function () {
     $('#myInput').focus()
   });
 
-  
+
 });
