@@ -191,6 +191,19 @@ nav li:hover {
   /*margin-top: -25em;*/
 }
 
+.public_content {
+  background: rgba(0,0,0,.6);
+  color: white;
+  margin: 1em 7em;
+}
+
+.public_content div {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+
+
 #our_firm {
   background: url('/assets/pics/our_firm.jpg') no-repeat 100% 100%;
   background-size: cover;

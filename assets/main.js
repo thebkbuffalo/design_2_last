@@ -21,9 +21,13 @@ $(document).ready(function(){
 
   $('.public_header').on('click', function(){
     if($('.public_txt').css('display') == 'none'){
+      $('.public_content').css({'margin':'0 15em;'});
       $('.public_txt').show();
+      $('.public_header_1').hide();
     }else{
       $('.public_txt').hide();
+      $('.public_header_1').show();
+      $('.public_content').css({'margin':'0 35em;'});
     }
   });
 });
