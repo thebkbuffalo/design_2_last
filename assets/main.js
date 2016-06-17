@@ -9,4 +9,21 @@ $(document).ready(function(){
   });
 
 
+ $('.public_img_slider').slick({
+  //  dots: true,
+    centerMode: true,
+    arrows: true,
+    // infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
+
+  $('.public_header').on('click', function(){
+    if($('.public_txt').css('display') == 'none'){
+      $('.public_txt').show();
+    }else{
+      $('.public_txt').hide();
+    }
+  });
 });
